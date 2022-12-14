@@ -43,3 +43,7 @@ Project created by: lesley-byte.
 Feel free to contact me by email with any questions: [Email](mailto:phosphorescence3@hotmail.com)
 
 My Github profile is at: [GitHub](https://github.com/lesley-byte)
+
+## Credits
+
+Starter code provided by instructor Kevin Ferguson. His Github profile is at: [GitHub](https://github.com/kfergrocks)
