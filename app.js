@@ -82,6 +82,10 @@ const questions = () => {
 
 function writeFileAsync(path, data) {
     return new Promise((resolve, reject) => {
+        // check if output folder exists
+        if (!fs.existsSync(OUTPUT_DIR)) {
+            fs.mkdirSync(OUTPUT_DIR);
+        }
         fs.writeFile(path, data,function (err) {
             if (err) {
                 reject(err);
@@ -101,7 +105,7 @@ questions()
         return writeFileAsync(outputPath, html);
     })
     .then(() => {
-        console.log('Successfully wrote to team.html');
+        console.log('Successfully wrote to output/team.html');
     })
     .catch((err) => console.error(err));
 

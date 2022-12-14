@@ -19,7 +19,9 @@ This node.js program creates an html file with details about team members in a c
 
 Run:
 
-```npm install ```
+```bash
+npm install
+```
 
 ## Usage
 
@@ -35,7 +37,9 @@ Please contact me by email before submitting contributions.
 
 ## Tests
 
-```npm test```
+```bash
+npm test
+```
 
 ## Questions
 
