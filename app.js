@@ -19,40 +19,40 @@ const questions = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            message: 'What is your name?',
+            message: "What is the employee's name?",
             name: 'name',
         },
         {
             type: 'input',
-            message: 'What is your ID?',
+            message: "What is the employee's ID number?",
             name: 'id',
         },
         {
             type: 'input',
-            message: 'What is your email?',
+            message: "What is the employee's email address?",
             name: 'email',
         },
         {
             type: 'list',
-            message: 'What is your role?',
+            message: "What is the employee's role?",
             name: 'role',
             choices: ['Manager', 'Engineer', 'Intern'],
         },
         {
             type: 'input',
-            message: 'What is your office number?',
+            message: "What is the employee's office number?",
             name: 'officeNumber',
             when: (answers) => answers.role === 'Manager',
         },
         {
             type: 'input',
-            message: 'What is your GitHub username?',
+            message: "What is the employee's GitHub username?",
             name: 'github',
             when: (answers) => answers.role === 'Engineer',
         },
         {
             type: 'input',
-            message: 'What school do you attend?',
+            message: "What school does the intern attend?",
             name: 'school',
             when: (answers) => answers.role === 'Intern',
         },
