@@ -25,7 +25,7 @@ npm install
 
 ## Usage
 
-You can use this to create company intranet website for employees.
+You can use this to create company intranet website for employees. The html file will be created in a folder called output.
 
 ## License  
 
