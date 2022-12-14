@@ -14,6 +14,7 @@ This node.js program creates an html file with details about team members in a c
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Credits](#credits)
 
 ## Installation
 
