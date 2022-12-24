@@ -5,10 +5,12 @@
 ## Description
 
 This node.js program creates an html file with details about team members in a company.
+Here is a video of the application in action: [Video](https://drive.google.com/file/d/1dDK8hQXB-n48uzGdt2CVkUfD7MsQarnZ/view?usp=sharing)
 
 ## Table of Contents
 
 * [Installation](#installation)
+* [Video](#video)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
@@ -24,6 +26,9 @@ Run:
 npm install
 ```
 
+## Video
+
+[Link to video of testing and use of application](https://drive.google.com/file/d/1dDK8hQXB-n48uzGdt2CVkUfD7MsQarnZ/view?usp=sharing)
 ## Usage
 
 You can use this to create company intranet website for employees. The html file will be created in a folder called output.
